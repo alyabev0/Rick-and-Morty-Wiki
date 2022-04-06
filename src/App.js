@@ -37,8 +37,8 @@ function App() {
   
   return (
     <div className="App">
-   <h1 className="text-center mb-3">Characters</h1>
-  {/* <Search setSearch={setSearch} updatePageNumber={updatePageNumber} /> */}
+ <h1 className="text-center mb-3">Characters</h1>
+  <Search setSearch={setSearch} updatePageNumber={updatePageNumber} />
 
   <div className="container">
   <div className="row">
@@ -50,6 +50,13 @@ function App() {
     </div>
   </div>
   </div>
+  
+  <Pagination
+  info={info}
+  pageNumber={pageNumber}
+  updatePageNumber={updatePageNumber}
+/>
+
 </div>
 
   );

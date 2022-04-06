@@ -33,7 +33,10 @@ const Card = ({ results }) => {
       }
       
     else{
-      display = "No Characters Found :/";
+      // display = "No Characters Found :/";
+      // return (
+      // <div style = {{fontSize: "21px", textAlign: "center"}}>Загрузка...</div>
+      // )
     }
   
     return <>{display}</>;
