@@ -1,18 +1,26 @@
 import './App.css';
 import React, { useState, useEffect } from "react";
+import Card from './components/Card/Card';
+
+var api = `https://rickandmortyapi.com/api/character/?page=1`
 
 
-let api = `https://rickandmortyapi.com/api/character/?page=1`
+
 
 function App() {
+
+  let [fetchedData, updateFetchedData] = useState([]);
+  let { info, results } = fetchedData;
 
   useEffect(() => {
     (async function () {
       let data = await fetch(api).then((res) => res.json());
+      updateFetchedData(data);
       console.log(data);
     })();
   }, [api]);
 
+  console.log(fetchedData)
   
   return (
     <div className="App">
@@ -22,7 +30,7 @@ function App() {
     Filter component will be placed here
     <div className="col-lg-8 col-12">
       <div className="row">
-        Card component will be placed here
+        <Card results = {results} />
       </div>
     </div>
   </div>
