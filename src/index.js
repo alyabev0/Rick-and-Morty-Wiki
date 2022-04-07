@@ -6,7 +6,7 @@ import Title from "./components/Title/Title"
 
 ReactDOM.render(
   <React.StrictMode>
-    <Title />
+    {/* <Title /> */}
     <App />
   </React.StrictMode>,
   document.getElementById('root')
