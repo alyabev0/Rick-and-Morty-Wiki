@@ -26,7 +26,7 @@ const Species = ({ updateSpecies, updatePageNumber }) => {
           aria-expanded="false"
           aria-controls="collapseTwo"
         >
-          Species
+          Раса
         </button>
       </h2>
       <div

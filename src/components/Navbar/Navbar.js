@@ -35,17 +35,17 @@ const Navbar = () => {
         >
           <div className="navbar-nav fs-5">
             <NavLink to="/" className="nav-link">
-              Characters
+              Персонажи
             </NavLink>
             <NavLink to="/episodes" className="nav-link">
-              Episode
+              Эпизод
             </NavLink>
             <NavLink
               activeClassName="active"
               className="nav-link"
               to="/location"
             >
-              Location
+              Локация
             </NavLink>
           </div>
         </div>
