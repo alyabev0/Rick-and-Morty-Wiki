@@ -36,7 +36,6 @@ const Card = ({ page, results }) => {
                 <div
                   className={`${styles.badge} position-absolute badge bg-danger`}
                 >
-                  {/* {status} */}
                   Мертв
                 </div>
               );
@@ -45,7 +44,6 @@ const Card = ({ page, results }) => {
                 <div
                   className={`${styles.badge} position-absolute badge bg-success`}
                 >
-                  {/* {status} */}
                   Жив
                 </div>
               );
@@ -54,7 +52,6 @@ const Card = ({ page, results }) => {
                 <div
                   className={`${styles.badge} position-absolute badge bg-secondary`}
                 >
-                  {/* {status} */}
                   Неизвестно
                 </div>
               );
