@@ -24,7 +24,7 @@ const CardDetails = () => {
       var genderOutput = "Неизвестно"
       break;
     default:
-    var genderOutput = "Загрузка..."  
+    var genderOutput = "Совершенно секретно"  
   break; 
   }
   switch(species) {
@@ -59,7 +59,7 @@ const CardDetails = () => {
       var speciesOutput = "Планета"
       break;
     default:
-    var speciesOutput = "Загрузка..."  
+    var speciesOutput = "Совершенно секретно"  
   break; 
   }
 
