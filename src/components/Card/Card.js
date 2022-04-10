@@ -61,7 +61,15 @@ const Card = ({ page, results }) => {
       );
     });
   } else {
-    display = "No Characters Found :/";
+    return(
+      <div style={{display: "flex", flexDirection: "column", width: "45%", marginLeft: "15%"}}>
+    <h1 style={{textAlign: "center"}}>Not found</h1>
+    <img style={{borderRadius: "40px"}}
+     src="https://media2.giphy.com/media/1USKMDPjuH4ovL7J5h/giphy.gif?cid=ecf05e47x2iumd9bwxzu7kgwexly8osom3zxxrgd7k3upfg9&rid=giphy.gif&ct=g"
+     alt="Not found!"
+     />
+     </div>
+    )
   }
 
   return <>{display}</>;
