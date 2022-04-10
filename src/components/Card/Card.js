@@ -36,7 +36,8 @@ const Card = ({ page, results }) => {
                 <div
                   className={`${styles.badge} position-absolute badge bg-danger`}
                 >
-                  {status}
+                  {/* {status} */}
+                  Мертв
                 </div>
               );
             } else if (status === "Alive") {
@@ -44,7 +45,8 @@ const Card = ({ page, results }) => {
                 <div
                   className={`${styles.badge} position-absolute badge bg-success`}
                 >
-                  {status}
+                  {/* {status} */}
+                  Жив
                 </div>
               );
             } else {
@@ -52,7 +54,8 @@ const Card = ({ page, results }) => {
                 <div
                   className={`${styles.badge} position-absolute badge bg-secondary`}
                 >
-                  {status}
+                  {/* {status} */}
+                  Неизвестно
                 </div>
               );
             }

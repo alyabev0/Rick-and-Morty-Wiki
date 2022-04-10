@@ -24,11 +24,11 @@ const CardDetails = () => {
         <img className="img-fluid" src={image} alt="" />
         {(() => {
           if (status === "Dead") {
-            return <div className="badge bg-danger fs-5">{status}</div>;
+            return <div className="badge bg-danger fs-5">Мертв</div>;//{status}
           } else if (status === "Alive") {
-            return <div className=" badge bg-success fs-5">{status}</div>;
+            return <div className=" badge bg-success fs-5">Жив</div>;
           } else {
-            return <div className="badge bg-secondary fs-5">{status}</div>;
+            return <div className="badge bg-secondary fs-5">Неизвестно</div>;
           }
         })()}
         <div className="content">

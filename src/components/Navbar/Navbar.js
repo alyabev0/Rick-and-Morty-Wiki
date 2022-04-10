@@ -38,14 +38,14 @@ const Navbar = () => {
               Персонажи
             </NavLink>
             <NavLink to="/episodes" className="nav-link">
-              Эпизод
+              Эпизоды
             </NavLink>
             <NavLink
               activeClassName="active"
               className="nav-link"
               to="/location"
             >
-              Локация
+              Локации
             </NavLink>
           </div>
         </div>
