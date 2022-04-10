@@ -1,6 +1,17 @@
 import React from "react";
 
 const InputGroup = ({ name, changeID, total }) => {
+  switch(name){
+    case "Location":
+      var output = "Локация"
+      break;
+    case 'Episode':
+      var output = "Эпизод"
+      break;
+    default:
+    var output = ""
+  break;
+  }
   return (
     <div className="input-group mb-3">
       <select
@@ -12,7 +23,7 @@ const InputGroup = ({ name, changeID, total }) => {
         {[...Array(total).keys()].map((x, index) => {
           return (
             <option value={x + 1}>
-              Эпизод - {x + 1}
+              {output} - {x + 1}
             </option>
           );
         })}
