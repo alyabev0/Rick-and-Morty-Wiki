@@ -5,7 +5,7 @@
 
 Проект выполнен на ReactJS.
 
-[**Лайв-версия проекта**](https://rick-and-morty-wiki-gamma.vercel.app/location)
+[**Лайв-версия проекта**](https://rick-and-morty-wiki-gamma.vercel.app)
 
 ## 🤖Технологии
 ***[Webpack](https://webpack.js.org/)***
